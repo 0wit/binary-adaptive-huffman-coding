@@ -301,6 +301,8 @@ def Decompress(file_name, file_extension):
 # Program runtime.
 
 program_running = True
+print("The compressed file is saved with the same name + '_compressed'," +
+    " decompressed file is saved with the same name + _'uncompressed'.")
 
 while (program_running):
 
@@ -311,8 +313,6 @@ while (program_running):
     all_symbols = []
 
     file_not_found = True
-    print("The compressed file is saved with the same name + '_compressed'," +
-    " decompressed file is saved with the same name + _'uncompressed'.")
 
     while(file_not_found):
         user_input = input("Enter name of file with extension, that you want to compress: ")
