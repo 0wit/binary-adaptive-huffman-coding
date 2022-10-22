@@ -1,6 +1,8 @@
 # binary_adaptive_huffman_coding
 Implementace Huffmanova adaptivního kódování (FGK algoritmus) podle slidů z předmětu Komprese dat, který v akademickém roce 2021/2022 učil doc. Mgr. Jan Outrata, Ph.D. Další zdrojem bylo cvičení z téhož předmětu vedené: Mgr. Tomášem Urbancem a pseudokód, z webové stránky: https://www.stringology.org/DataCompression/fgk/index_en.html.
 
+Testovací soubory se nachází v adresáři: test-examples. Soubor, které chcete komprimovat musí být ve stejném adresáři jako main.py. (main_cz.py)
+
 Níže testování na programu na formátech .txt, .pdf, .docx, .jpg a .png.
 
 ![image](https://user-images.githubusercontent.com/61089322/168492272-a213359c-4ea4-4ea8-927d-29ac0ca8d344.png)
